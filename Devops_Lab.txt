@@ -16,3 +16,9 @@ Run these commands
 git add .
 git commit -m "Message"
 git push
+
+branching
+git branch branch-name
+git switch branch-name
+git add.
+git commit -m "Message"

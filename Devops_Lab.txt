@@ -22,3 +22,8 @@ git branch branch-name
 git switch branch-name
 git add.
 git commit -m "Message"
+
+merging 
+git switch main
+git merge branch-name
+git push origin main

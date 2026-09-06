@@ -9,3 +9,10 @@ git commit -m "Message"
 git branch -M main
 git remote add origin URL
 git push -u origin main
+
+Now I want to update the files. How do I do that ???
+Make the required changes and save the file 
+Run these commands
+git add .
+git commit -m "Message"
+git push

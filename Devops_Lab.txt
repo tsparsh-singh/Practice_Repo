@@ -1,0 +1,11 @@
+git config --list(u will be able to see who is the current author of the commits)
+git config --global user.name "Your User Name"(sets the name of the person associated with the commits)
+git config --global user.email "Your Email"(sets the email of the person associated with the commits)
+mkdir folder name
+cd folder name
+git init
+git add.
+git commit -m "Message"
+git branch -M main
+git remote add origin URL
+git push -u origin main

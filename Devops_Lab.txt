@@ -28,4 +28,25 @@ git switch main
 git merge branch-name
 git push origin main
 
-collaborations
+Experiment: Installation of Jenkins
+Aim: To install and configure Jenkins on a system.
+Steps to Install Jenkins
+1. Download and install JDK (Java Development Kit) on the system.
+2. Download and install Jenkins on the system.
+3. Open the Jenkins installation folder or navigate to the folder where jenkins.war is located.
+4. Open Command Prompt (CMD) in that folder.
+   - You can type cmd in the folder's address bar and press Enter.
+5. Run the Jenkins WAR file using the following command:
+   java -jar jenkins.war
+6. Open a web browser and enter:
+   http://localhost:8080
+7. Jenkins will display an initial administrator password.
+   - Copy the alphanumeric password shown in the CMD/terminal.
+   - Paste it into the Jenkins browser setup page.
+8. Click Continue and select Install suggested plugins.
+9. Wait for the required plugins to be downloaded and installed.
+10. After installation, create the first Jenkins administrator user by entering the required username, password, name, and email.
+11. Click Save and Continue and then Start using Jenkins.
+12. Jenkins is now successfully installed and ready to use.
+
+git log -1 --pretty=format:"%h - %an - %s"
